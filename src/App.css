@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-card{
+  border-radius: 8px;
+  background-color: #282c34;
+  position: relative;
+  margin: 1rem;
+  width: 400px;
+  /* opacity: 0.9; */
+}
+img{
+  width: 260px;
+  height: 350px;
+}
+body{
+  background-color: darkgoldenrod;
+  opacity: 0.8;
+}
+p{
+  color: white;
+}
+h3{
+  color: white;
+}
+h1{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: xx-large;
+}
+.movie-card :hover{
+  opacity: 0.5;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+form{
+  border-radius: 6px;
+  background-color: wheat;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height:300px;
+  margin:auto;
+  text-align: center;
+}
+
+form > label{
+  margin-top: 15px;
+  text-align: center;
+}
+.cherche{
+  background-color: darkgoldenrod;
+  height: 80px;
+}
+.aa{
+  font-family: Smokum;
+}
