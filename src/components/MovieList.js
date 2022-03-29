@@ -1,7 +1,7 @@
 import React from 'react'
 import MovieCard from './MovieCard'
 
-const MovieList = ({data,deleteMovie}) => {
+const MovieList = ({data,deleteMovie,elemnt}) => {
     console.log(data)
   return (
     <div className='movie-list'>

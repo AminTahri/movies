@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: bisque;
+  font-size: 25px;
+  border-style: double;
+}
 
 .App-logo {
   height: 40vmin;
