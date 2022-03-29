@@ -7,7 +7,7 @@ const More = ({data}) => {
     const item=data.find(el=>el.id==id)
   return (
     <div>
-        <img src={item.imgSrc} alt="" />
+        <img src={item.image} alt="" />
         <h3>{item.name}</h3>
         <h3> {item.date} </h3>
     </div>
